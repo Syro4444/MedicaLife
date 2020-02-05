@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InscriptionViewController" customModule="MedicaLife" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" ambiguous="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="WmD-4d-fxk">
+                    <rect key="frame" x="18" y="68" width="378" height="58"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="INSCRIPTION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9i1-Pt-hPa">
+                    <rect key="frame" x="132" y="159" width="150" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Nom:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N68-TX-NIj">
+                    <rect key="frame" x="32" y="249" width="41" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Prénom:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPq-m0-iQN">
+                    <rect key="frame" x="32" y="295" width="64" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mail:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KHf-XZ-g3r">
+                    <rect key="frame" x="32" y="343" width="36" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Conf. Mail:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jtO-hW-eul">
+                    <rect key="frame" x="30" y="391" width="81" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Mot de passe:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxf-s5-xCg">
+                    <rect key="frame" x="32" y="437" width="108" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Conf. mot de passe:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdx-wy-SCe">
+                    <rect key="frame" x="30" y="484" width="153" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ceZ-QQ-V8Q">
+                    <rect key="frame" x="85" y="242" width="299" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Me-ht-h8S">
+                    <rect key="frame" x="104" y="288" width="280" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7jV-hG-nbs">
+                    <rect key="frame" x="76" y="336" width="308" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9r2-wE-XBf">
+                    <rect key="frame" x="119" y="384" width="265" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gfD-yq-yka">
+                    <rect key="frame" x="144" y="430" width="240" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oaa-Xq-Sfp">
+                    <rect key="frame" x="191" y="477" width="193" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qeK-PH-RMS">
+                    <rect key="frame" x="85" y="585" width="64" height="36"/>
+                    <color key="backgroundColor" red="0.97964018580000001" green="0.62374967339999998" blue="0.76831662649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <color key="tintColor" red="0.40227758879999997" green="0.74308389429999999" blue="0.71004587409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Retour"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdu-Lx-xm4">
+                    <rect key="frame" x="250" y="585" width="96" height="36"/>
+                    <color key="backgroundColor" red="0.40227758879999997" green="0.74308389429999999" blue="0.71004587409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <color key="tintColor" red="0.97964018580000001" green="0.62374967339999998" blue="0.76831662649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Confirmer"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@All rights reserved by DNR services" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYd-d9-F32">
+                    <rect key="frame" x="65" y="807" width="284" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ceZ-QQ-V8Q" firstAttribute="top" secondItem="9i1-Pt-hPa" secondAttribute="bottom" constant="53" id="1aK-hY-Klu"/>
+                <constraint firstItem="5Me-ht-h8S" firstAttribute="top" secondItem="ceZ-QQ-V8Q" secondAttribute="bottom" constant="12" id="4YS-zg-3Ba"/>
+                <constraint firstItem="fdx-wy-SCe" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="A1J-Gq-R77"/>
+                <constraint firstItem="jxf-s5-xCg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="CXz-ff-VFG"/>
+                <constraint firstItem="pdu-Lx-xm4" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="CZs-FK-Kjl"/>
+                <constraint firstItem="7jV-hG-nbs" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ct6-fX-Sfw"/>
+                <constraint firstItem="Oaa-Xq-Sfp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="K5Q-hc-i3H"/>
+                <constraint firstItem="9i1-Pt-hPa" firstAttribute="top" secondItem="WmD-4d-fxk" secondAttribute="bottom" constant="33" id="M6k-8Q-BHr"/>
+                <constraint firstItem="jtO-hW-eul" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Nfg-XM-3C4"/>
+                <constraint firstItem="ceZ-QQ-V8Q" firstAttribute="leading" secondItem="N68-TX-NIj" secondAttribute="trailing" constant="12" id="QGz-5p-4I6"/>
+                <constraint firstItem="ceZ-QQ-V8Q" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="a8V-Ns-UHW"/>
+                <constraint firstItem="5Me-ht-h8S" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="aOI-DI-fOa"/>
+                <constraint firstItem="gfD-yq-yka" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fgU-UZ-BUC"/>
+                <constraint firstItem="WmD-4d-fxk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jXb-27-6zk"/>
+                <constraint firstItem="9i1-Pt-hPa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kG4-Nb-YOp"/>
+                <constraint firstItem="ceZ-QQ-V8Q" firstAttribute="top" secondItem="9i1-Pt-hPa" secondAttribute="bottom" constant="53" id="kdK-rm-7Qk"/>
+                <constraint firstItem="WmD-4d-fxk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="18" id="lhS-Uu-QQO"/>
+                <constraint firstItem="9r2-wE-XBf" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="nHz-D4-NWZ"/>
+                <constraint firstItem="qeK-PH-RMS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xCC-Ex-g31"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="WmD-4d-fxk" secondAttribute="trailing" constant="18" id="yRp-db-wge"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="131.8840579710145" y="93.75"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo" width="465" height="108"/>
+    </resources>
+</document>
