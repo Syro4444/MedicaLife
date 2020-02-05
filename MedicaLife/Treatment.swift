@@ -9,7 +9,7 @@
 import Foundation
 
 //
-class Traitment: CustomStringConvertible {
+class Treatment: CustomStringConvertible {
     var id: Int?
     var name: String
     var comment: String

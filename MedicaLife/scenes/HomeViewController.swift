@@ -9,7 +9,7 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-    let traitmentWebService: TraitmentWebService = TraitmentWebService()
+    let treatmentWebService: TreatmentWebService = TreatmentWebService()
     
     override func viewDidLoad() {
         super.viewDidLoad()

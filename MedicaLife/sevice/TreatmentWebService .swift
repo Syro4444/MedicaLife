@@ -8,13 +8,13 @@
 
 import Foundation
 
-class TraitmentWebService {
+class TreatmentWebService {
 
-    func getTraitments(completion: @escaping ([Traitment]) -> Void) -> Void {
-        guard let traitmentURL = URL(string: "https://moc-3a-movies.herokuapp.com/") else {
+    func getTreatment(completion: @escaping ([Treatment]) -> Void) -> Void {
+        guard let treatmentURL = URL(string: "https://moc-3a-movies.herokuapp.com/") else {
             return;
         }
-        let task = URLSession.shared.dataTask(with: traitmentURL, completionHandler: { (data: Data?, res, err) in
+        let task = URLSession.shared.dataTask(with: treatmentURL, completionHandler: { (data: Data?, res, err) in
             guard let bytes = data,
                   err == nil,
                   let json = try? JSONSerialization.jsonObject(with: bytes, options: .allowFragments) as? [Any] else {
@@ -23,14 +23,14 @@ class TraitmentWebService {
                     }
                 return
             }
-            let traitment = json.compactMap { (obj) -> Traitment? in
+            let treatment = json.compactMap { (obj) -> Treatment? in
                 guard let dict = obj as? [String: Any] else {
                     return nil
                 }
-                return TraitmentFactory.traitmentFrom(dictionary: dict)
+                return TreatmentFactory.treatmentFrom(dictionary: dict)
             }
             DispatchQueue.main.sync {
-                completion(traitment)
+                completion(treatment)
             }
         })
         task.resume()
