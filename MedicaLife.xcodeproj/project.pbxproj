@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6410855823E9D0B600C49F6A /* TraitmentWebService .swift in Sources */ = {isa = PBXBuildFile; fileRef = 6410855723E9D0B600C49F6A /* TraitmentWebService .swift */; };
+		6410855A23E9D0D200C49F6A /* TraitmentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6410855923E9D0D200C49F6A /* TraitmentFactory.swift */; };
+		6410855D23E9D11700C49F6A /* Traitment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6410855C23E9D11700C49F6A /* Traitment.swift */; };
+		645AB38523E0C186008E5756 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645AB38323E0C186008E5756 /* IndexViewController.swift */; };
+		645AB38623E0C186008E5756 /* IndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 645AB38423E0C186008E5756 /* IndexViewController.xib */; };
+		645BCC2123D096E60098CAF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645BCC2023D096E60098CAF1 /* AppDelegate.swift */; };
+		645BCC2A23D096F10098CAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645BCC2923D096F10098CAF1 /* Assets.xcassets */; };
+		645BCC3823D096F20098CAF1 /* MedicaLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645BCC3723D096F20098CAF1 /* MedicaLifeTests.swift */; };
+		645BCC4323D096F20098CAF1 /* MedicaLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645BCC4223D096F20098CAF1 /* MedicaLifeUITests.swift */; };
+		645BCC5423D098770098CAF1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645BCC5223D098760098CAF1 /* HomeViewController.swift */; };
+		645BCC5523D098770098CAF1 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 645BCC5323D098760098CAF1 /* HomeViewController.xib */; };
+		6462DFC723E5AF4D002D3272 /* NewtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462DFC523E5AF4D002D3272 /* NewtViewController.swift */; };
+		6462DFC823E5AF4D002D3272 /* NewtViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6462DFC623E5AF4D002D3272 /* NewtViewController.xib */; };
+		B263488623D601130028AD87 /* InscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B263488423D601130028AD87 /* InscriptionViewController.swift */; };
+		B263488723D601130028AD87 /* InscriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B263488523D601130028AD87 /* InscriptionViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		645BCC3423D096F20098CAF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 645BCC1523D096E50098CAF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 645BCC1C23D096E60098CAF1;
+			remoteInfo = MedicaLife;
+		};
+		645BCC3F23D096F20098CAF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 645BCC1523D096E50098CAF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 645BCC1C23D096E60098CAF1;
+			remoteInfo = MedicaLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6410855723E9D0B600C49F6A /* TraitmentWebService .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TraitmentWebService .swift"; sourceTree = "<group>"; };
+		6410855923E9D0D200C49F6A /* TraitmentFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitmentFactory.swift; sourceTree = "<group>"; };
+		6410855C23E9D11700C49F6A /* Traitment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traitment.swift; sourceTree = "<group>"; };
+		645AB38323E0C186008E5756 /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		645AB38423E0C186008E5756 /* IndexViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IndexViewController.xib; sourceTree = "<group>"; };
+		645BCC1D23D096E60098CAF1 /* MedicaLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicaLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		645BCC2023D096E60098CAF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		645BCC2923D096F10098CAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		645BCC2E23D096F10098CAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645BCC3323D096F20098CAF1 /* MedicaLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicaLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		645BCC3723D096F20098CAF1 /* MedicaLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicaLifeTests.swift; sourceTree = "<group>"; };
+		645BCC3923D096F20098CAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645BCC3E23D096F20098CAF1 /* MedicaLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicaLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		645BCC4223D096F20098CAF1 /* MedicaLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicaLifeUITests.swift; sourceTree = "<group>"; };
+		645BCC4423D096F20098CAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645BCC5223D098760098CAF1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		645BCC5323D098760098CAF1 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		6462DFC523E5AF4D002D3272 /* NewtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtViewController.swift; sourceTree = "<group>"; };
+		6462DFC623E5AF4D002D3272 /* NewtViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewtViewController.xib; sourceTree = "<group>"; };
+		B263488423D601130028AD87 /* InscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscriptionViewController.swift; sourceTree = "<group>"; };
+		B263488523D601130028AD87 /* InscriptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InscriptionViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		645BCC1A23D096E60098CAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645BCC3023D096F20098CAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645BCC3B23D096F20098CAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6410855623E9CF9300C49F6A /* sevice */ = {
+			isa = PBXGroup;
+			children = (
+				6410855723E9D0B600C49F6A /* TraitmentWebService .swift */,
+				6410855923E9D0D200C49F6A /* TraitmentFactory.swift */,
+			);
+			path = sevice;
+			sourceTree = "<group>";
+		};
+		6410855B23E9D0DE00C49F6A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				6410855C23E9D11700C49F6A /* Traitment.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		6410855E23E9D13F00C49F6A /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				645BCC5223D098760098CAF1 /* HomeViewController.swift */,
+				645BCC5323D098760098CAF1 /* HomeViewController.xib */,
+				B263488423D601130028AD87 /* InscriptionViewController.swift */,
+				B263488523D601130028AD87 /* InscriptionViewController.xib */,
+				645AB38323E0C186008E5756 /* IndexViewController.swift */,
+				645AB38423E0C186008E5756 /* IndexViewController.xib */,
+				6462DFC523E5AF4D002D3272 /* NewtViewController.swift */,
+				6462DFC623E5AF4D002D3272 /* NewtViewController.xib */,
+			);
+			path = scenes;
+			sourceTree = "<group>";
+		};
+		645BCC1423D096E50098CAF1 = {
+			isa = PBXGroup;
+			children = (
+				645BCC1F23D096E60098CAF1 /* MedicaLife */,
+				645BCC3623D096F20098CAF1 /* MedicaLifeTests */,
+				645BCC4123D096F20098CAF1 /* MedicaLifeUITests */,
+				645BCC1E23D096E60098CAF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		645BCC1E23D096E60098CAF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				645BCC1D23D096E60098CAF1 /* MedicaLife.app */,
+				645BCC3323D096F20098CAF1 /* MedicaLifeTests.xctest */,
+				645BCC3E23D096F20098CAF1 /* MedicaLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		645BCC1F23D096E60098CAF1 /* MedicaLife */ = {
+			isa = PBXGroup;
+			children = (
+				6410855E23E9D13F00C49F6A /* scenes */,
+				6410855B23E9D0DE00C49F6A /* models */,
+				6410855623E9CF9300C49F6A /* sevice */,
+				645BCC2023D096E60098CAF1 /* AppDelegate.swift */,
+				645BCC2923D096F10098CAF1 /* Assets.xcassets */,
+				645BCC2E23D096F10098CAF1 /* Info.plist */,
+			);
+			path = MedicaLife;
+			sourceTree = "<group>";
+		};
+		645BCC3623D096F20098CAF1 /* MedicaLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				645BCC3723D096F20098CAF1 /* MedicaLifeTests.swift */,
+				645BCC3923D096F20098CAF1 /* Info.plist */,
+			);
+			path = MedicaLifeTests;
+			sourceTree = "<group>";
+		};
+		645BCC4123D096F20098CAF1 /* MedicaLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				645BCC4223D096F20098CAF1 /* MedicaLifeUITests.swift */,
+				645BCC4423D096F20098CAF1 /* Info.plist */,
+			);
+			path = MedicaLifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		645BCC1C23D096E60098CAF1 /* MedicaLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645BCC4723D096F30098CAF1 /* Build configuration list for PBXNativeTarget "MedicaLife" */;
+			buildPhases = (
+				645BCC1923D096E60098CAF1 /* Sources */,
+				645BCC1A23D096E60098CAF1 /* Frameworks */,
+				645BCC1B23D096E60098CAF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicaLife;
+			productName = MedicaLife;
+			productReference = 645BCC1D23D096E60098CAF1 /* MedicaLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		645BCC3223D096F20098CAF1 /* MedicaLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645BCC4A23D096F30098CAF1 /* Build configuration list for PBXNativeTarget "MedicaLifeTests" */;
+			buildPhases = (
+				645BCC2F23D096F20098CAF1 /* Sources */,
+				645BCC3023D096F20098CAF1 /* Frameworks */,
+				645BCC3123D096F20098CAF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				645BCC3523D096F20098CAF1 /* PBXTargetDependency */,
+			);
+			name = MedicaLifeTests;
+			productName = MedicaLifeTests;
+			productReference = 645BCC3323D096F20098CAF1 /* MedicaLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		645BCC3D23D096F20098CAF1 /* MedicaLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645BCC4D23D096F30098CAF1 /* Build configuration list for PBXNativeTarget "MedicaLifeUITests" */;
+			buildPhases = (
+				645BCC3A23D096F20098CAF1 /* Sources */,
+				645BCC3B23D096F20098CAF1 /* Frameworks */,
+				645BCC3C23D096F20098CAF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				645BCC4023D096F20098CAF1 /* PBXTargetDependency */,
+			);
+			name = MedicaLifeUITests;
+			productName = MedicaLifeUITests;
+			productReference = 645BCC3E23D096F20098CAF1 /* MedicaLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		645BCC1523D096E50098CAF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = raphael;
+				TargetAttributes = {
+					645BCC1C23D096E60098CAF1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					645BCC3223D096F20098CAF1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 645BCC1C23D096E60098CAF1;
+					};
+					645BCC3D23D096F20098CAF1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 645BCC1C23D096E60098CAF1;
+					};
+				};
+			};
+			buildConfigurationList = 645BCC1823D096E50098CAF1 /* Build configuration list for PBXProject "MedicaLife" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 645BCC1423D096E50098CAF1;
+			productRefGroup = 645BCC1E23D096E60098CAF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				645BCC1C23D096E60098CAF1 /* MedicaLife */,
+				645BCC3223D096F20098CAF1 /* MedicaLifeTests */,
+				645BCC3D23D096F20098CAF1 /* MedicaLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		645BCC1B23D096E60098CAF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6462DFC823E5AF4D002D3272 /* NewtViewController.xib in Resources */,
+				B263488723D601130028AD87 /* InscriptionViewController.xib in Resources */,
+				645BCC2A23D096F10098CAF1 /* Assets.xcassets in Resources */,
+				645BCC5523D098770098CAF1 /* HomeViewController.xib in Resources */,
+				645AB38623E0C186008E5756 /* IndexViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645BCC3123D096F20098CAF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645BCC3C23D096F20098CAF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		645BCC1923D096E60098CAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645BCC2123D096E60098CAF1 /* AppDelegate.swift in Sources */,
+				645BCC5423D098770098CAF1 /* HomeViewController.swift in Sources */,
+				6410855D23E9D11700C49F6A /* Traitment.swift in Sources */,
+				6410855A23E9D0D200C49F6A /* TraitmentFactory.swift in Sources */,
+				6410855823E9D0B600C49F6A /* TraitmentWebService .swift in Sources */,
+				B263488623D601130028AD87 /* InscriptionViewController.swift in Sources */,
+				6462DFC723E5AF4D002D3272 /* NewtViewController.swift in Sources */,
+				645AB38523E0C186008E5756 /* IndexViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645BCC2F23D096F20098CAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645BCC3823D096F20098CAF1 /* MedicaLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645BCC3A23D096F20098CAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645BCC4323D096F20098CAF1 /* MedicaLifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		645BCC3523D096F20098CAF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 645BCC1C23D096E60098CAF1 /* MedicaLife */;
+			targetProxy = 645BCC3423D096F20098CAF1 /* PBXContainerItemProxy */;
+		};
+		645BCC4023D096F20098CAF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 645BCC1C23D096E60098CAF1 /* MedicaLife */;
+			targetProxy = 645BCC3F23D096F20098CAF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		645BCC4523D096F20098CAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		645BCC4623D096F20098CAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		645BCC4823D096F30098CAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPPLY28BL6;
+				INFOPLIST_FILE = MedicaLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = raphael.MedicaLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		645BCC4923D096F30098CAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPPLY28BL6;
+				INFOPLIST_FILE = MedicaLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = raphael.MedicaLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		645BCC4B23D096F30098CAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPPLY28BL6;
+				INFOPLIST_FILE = MedicaLifeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = raphael.MedicaLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicaLife.app/MedicaLife";
+			};
+			name = Debug;
+		};
+		645BCC4C23D096F30098CAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPPLY28BL6;
+				INFOPLIST_FILE = MedicaLifeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = raphael.MedicaLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicaLife.app/MedicaLife";
+			};
+			name = Release;
+		};
+		645BCC4E23D096F30098CAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPPLY28BL6;
+				INFOPLIST_FILE = MedicaLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = raphael.MedicaLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedicaLife;
+			};
+			name = Debug;
+		};
+		645BCC4F23D096F30098CAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPPLY28BL6;
+				INFOPLIST_FILE = MedicaLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = raphael.MedicaLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedicaLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		645BCC1823D096E50098CAF1 /* Build configuration list for PBXProject "MedicaLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645BCC4523D096F20098CAF1 /* Debug */,
+				645BCC4623D096F20098CAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645BCC4723D096F30098CAF1 /* Build configuration list for PBXNativeTarget "MedicaLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645BCC4823D096F30098CAF1 /* Debug */,
+				645BCC4923D096F30098CAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645BCC4A23D096F30098CAF1 /* Build configuration list for PBXNativeTarget "MedicaLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645BCC4B23D096F30098CAF1 /* Debug */,
+				645BCC4C23D096F30098CAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645BCC4D23D096F30098CAF1 /* Build configuration list for PBXNativeTarget "MedicaLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645BCC4E23D096F30098CAF1 /* Debug */,
+				645BCC4F23D096F30098CAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 645BCC1523D096E50098CAF1 /* Project object */;
+}
