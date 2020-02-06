@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64074D5223EC4E36005EC5B1 /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64074D5023EC4E36005EC5B1 /* ConnectionViewController.swift */; };
+		64074D5323EC4E36005EC5B1 /* ConnectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64074D5123EC4E36005EC5B1 /* ConnectionViewController.xib */; };
 		6410855823E9D0B600C49F6A /* TreatmentWebService .swift in Sources */ = {isa = PBXBuildFile; fileRef = 6410855723E9D0B600C49F6A /* TreatmentWebService .swift */; };
 		6410855A23E9D0D200C49F6A /* TreatmentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6410855923E9D0D200C49F6A /* TreatmentFactory.swift */; };
 		6410855D23E9D11700C49F6A /* Treatment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6410855C23E9D11700C49F6A /* Treatment.swift */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64074D5023EC4E36005EC5B1 /* ConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
+		64074D5123EC4E36005EC5B1 /* ConnectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConnectionViewController.xib; sourceTree = "<group>"; };
 		6410855723E9D0B600C49F6A /* TreatmentWebService .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TreatmentWebService .swift"; sourceTree = "<group>"; };
 		6410855923E9D0D200C49F6A /* TreatmentFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentFactory.swift; sourceTree = "<group>"; };
 		6410855C23E9D11700C49F6A /* Treatment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treatment.swift; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 				645AB38423E0C186008E5756 /* IndexViewController.xib */,
 				6462DFC523E5AF4D002D3272 /* NewtViewController.swift */,
 				6462DFC623E5AF4D002D3272 /* NewtViewController.xib */,
+				64074D5023EC4E36005EC5B1 /* ConnectionViewController.swift */,
+				64074D5123EC4E36005EC5B1 /* ConnectionViewController.xib */,
 			);
 			path = scenes;
 			sourceTree = "<group>";
@@ -281,6 +287,7 @@
 				B263488723D601130028AD87 /* InscriptionViewController.xib in Resources */,
 				645BCC2A23D096F10098CAF1 /* Assets.xcassets in Resources */,
 				645BCC5523D098770098CAF1 /* HomeViewController.xib in Resources */,
+				64074D5323EC4E36005EC5B1 /* ConnectionViewController.xib in Resources */,
 				645AB38623E0C186008E5756 /* IndexViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +321,7 @@
 				B263488623D601130028AD87 /* InscriptionViewController.swift in Sources */,
 				6462DFC723E5AF4D002D3272 /* NewtViewController.swift in Sources */,
 				645AB38523E0C186008E5756 /* IndexViewController.swift in Sources */,
+				64074D5223EC4E36005EC5B1 /* ConnectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

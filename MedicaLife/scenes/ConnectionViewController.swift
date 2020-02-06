@@ -1,14 +1,14 @@
 //
-//  InscriptionViewController.swift
+//  ConnectionViewController.swift
 //  MedicaLife
 //
-//  Created by Lyudmyla Lutsyk on 20/01/2020.
+//  Created by raphael on 06/02/2020.
 //  Copyright © 2020 raphael. All rights reserved.
 //
 
 import UIKit
 
-class InscriptionViewController: UIViewController {
+class ConnectionViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,17 +16,11 @@ class InscriptionViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func BackButton(_ sender: Any) {
-        let back = HomeViewController()
-        self.navigationController?.pushViewController(back, animated: true)
-    }
-    
-   
-    @IBAction func submitButton(_ sender: Any) {
-        let submit = ConnectionViewController()
+
+    @IBAction func ConnectButton(_ sender: Any) {
+        let submit = IndexViewController()
         self.navigationController?.pushViewController(submit, animated: true)
     }
-    
     
     /*
     // MARK: - Navigation

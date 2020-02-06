@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -9,10 +10,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IndexViewController" customModule="MedicaLife" customModuleProvider="target">
             <connections>
-                <outlet property="add" destination="sUh-ne-7vP" id="5o0-Y4-atw"/>
-                <outlet property="home" destination="i25-B4-tmj" id="po4-BZ-Slj"/>
-                <outlet property="list" destination="ThW-b7-Ljn" id="6cP-yq-aq1"/>
-                <outlet property="menu" destination="07f-3f-9oV" id="QAF-Ze-c9a"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -25,7 +22,7 @@
                     <rect key="frame" x="77" y="91" width="261" height="108"/>
                 </imageView>
                 <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="07f-3f-9oV">
-                    <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                    <rect key="frame" x="0.0" y="779" width="414" height="83"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <items>
                         <tabBarItem selectedImage="add-icon" springLoaded="YES" id="sUh-ne-7vP" userLabel="add"/>

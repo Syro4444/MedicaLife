@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -63,10 +64,14 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="BTo-vZ-kL3" firstAttribute="top" secondItem="5cD-zg-MAR" secondAttribute="bottom" constant="295" id="1Zr-JD-taE"/>
                 <constraint firstItem="kE7-Cm-HBn" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5dG-dV-Djh"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="USu-uR-9tU" secondAttribute="trailing" constant="32" id="Bph-2i-KoV"/>
                 <constraint firstItem="USu-uR-9tU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="33" id="HKz-1W-TsT"/>
+                <constraint firstItem="5cD-zg-MAR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="124.5" id="P76-Ac-OSc"/>
+                <constraint firstItem="5cD-zg-MAR" firstAttribute="top" secondItem="kE7-Cm-HBn" secondAttribute="bottom" constant="44" id="Xr6-Zu-Tmd"/>
                 <constraint firstItem="BTo-vZ-kL3" firstAttribute="top" secondItem="5cD-zg-MAR" secondAttribute="bottom" constant="295" id="Zi7-hN-X1N"/>
+                <constraint firstItem="5cD-zg-MAR" firstAttribute="top" secondItem="kE7-Cm-HBn" secondAttribute="bottom" constant="44" id="alk-cu-gf1"/>
                 <constraint firstItem="5cD-zg-MAR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="f2r-Uc-U7G"/>
                 <constraint firstItem="USu-uR-9tU" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="126" id="fJ4-3b-eLd"/>
                 <constraint firstItem="BTo-vZ-kL3" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="65" id="hWc-ig-6Wv"/>
@@ -75,6 +80,7 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="BTo-vZ-kL3" secondAttribute="bottom" constant="45" id="oSa-eo-dBA"/>
                 <constraint firstItem="kE7-Cm-HBn" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="qFO-L5-TVr"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BTo-vZ-kL3" secondAttribute="trailing" constant="65" id="yig-Al-FrY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="5cD-zg-MAR" secondAttribute="trailing" constant="124.5" id="zfN-dT-p75"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="131.8840579710145" y="153.34821428571428"/>
