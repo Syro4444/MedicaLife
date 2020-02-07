@@ -13,13 +13,8 @@ class InscriptionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
-    @IBAction func BackButton(_ sender: Any) {
-        let back = HomeViewController()
-        self.navigationController?.pushViewController(back, animated: true)
-    }
     
    
     @IBAction func submitButton(_ sender: Any) {
