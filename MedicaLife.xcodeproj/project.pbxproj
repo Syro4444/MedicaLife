@@ -22,8 +22,8 @@
 		645BCC5523D098770098CAF1 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 645BCC5323D098760098CAF1 /* HomeViewController.xib */; };
 		6462DFC723E5AF4D002D3272 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462DFC523E5AF4D002D3272 /* NextViewController.swift */; };
 		6462DFC823E5AF4D002D3272 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6462DFC623E5AF4D002D3272 /* NextViewController.xib */; };
-		8E6F49E323ED6C5200494A09 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F49E123ED6C5200494A09 /* TableViewCell.swift */; };
-		8E6F49E423ED6C5200494A09 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F49E223ED6C5200494A09 /* TableViewCell.xib */; };
+		8E486C1323ED6F37008ABF77 /* TreatmentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E486C1123ED6F37008ABF77 /* TreatmentViewCell.swift */; };
+		8E486C1423ED6F37008ABF77 /* TreatmentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E486C1223ED6F37008ABF77 /* TreatmentViewCell.xib */; };
 		B263488623D601130028AD87 /* InscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B263488423D601130028AD87 /* InscriptionViewController.swift */; };
 		B263488723D601130028AD87 /* InscriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B263488523D601130028AD87 /* InscriptionViewController.xib */; };
 /* End PBXBuildFile section */
@@ -67,8 +67,8 @@
 		645BCC5323D098760098CAF1 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		6462DFC523E5AF4D002D3272 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		6462DFC623E5AF4D002D3272 /* NextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
-		8E6F49E123ED6C5200494A09 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		8E6F49E223ED6C5200494A09 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		8E486C1123ED6F37008ABF77 /* TreatmentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentViewCell.swift; sourceTree = "<group>"; };
+		8E486C1223ED6F37008ABF77 /* TreatmentViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TreatmentViewCell.xib; sourceTree = "<group>"; };
 		B263488423D601130028AD87 /* InscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscriptionViewController.swift; sourceTree = "<group>"; };
 		B263488523D601130028AD87 /* InscriptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InscriptionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,8 +127,8 @@
 				6462DFC623E5AF4D002D3272 /* NextViewController.xib */,
 				64074D5023EC4E36005EC5B1 /* ConnectionViewController.swift */,
 				64074D5123EC4E36005EC5B1 /* ConnectionViewController.xib */,
-				8E6F49E123ED6C5200494A09 /* TableViewCell.swift */,
-				8E6F49E223ED6C5200494A09 /* TableViewCell.xib */,
+				8E486C1123ED6F37008ABF77 /* TreatmentViewCell.swift */,
+				8E486C1223ED6F37008ABF77 /* TreatmentViewCell.xib */,
 			);
 			path = scenes;
 			sourceTree = "<group>";
@@ -289,9 +289,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E486C1423ED6F37008ABF77 /* TreatmentViewCell.xib in Resources */,
 				6462DFC823E5AF4D002D3272 /* NextViewController.xib in Resources */,
 				B263488723D601130028AD87 /* InscriptionViewController.xib in Resources */,
-				8E6F49E423ED6C5200494A09 /* TableViewCell.xib in Resources */,
 				645BCC2A23D096F10098CAF1 /* Assets.xcassets in Resources */,
 				645BCC5523D098770098CAF1 /* HomeViewController.xib in Resources */,
 				64074D5323EC4E36005EC5B1 /* ConnectionViewController.xib in Resources */,
@@ -323,9 +323,9 @@
 				645BCC2123D096E60098CAF1 /* AppDelegate.swift in Sources */,
 				645BCC5423D098770098CAF1 /* HomeViewController.swift in Sources */,
 				6410855D23E9D11700C49F6A /* Treatment.swift in Sources */,
+				8E486C1323ED6F37008ABF77 /* TreatmentViewCell.swift in Sources */,
 				6410855A23E9D0D200C49F6A /* TreatmentFactory.swift in Sources */,
 				6410855823E9D0B600C49F6A /* TreatmentWebService .swift in Sources */,
-				8E6F49E323ED6C5200494A09 /* TableViewCell.swift in Sources */,
 				B263488623D601130028AD87 /* InscriptionViewController.swift in Sources */,
 				6462DFC723E5AF4D002D3272 /* NextViewController.swift in Sources */,
 				645AB38523E0C186008E5756 /* IndexViewController.swift in Sources */,

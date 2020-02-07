@@ -1,5 +1,5 @@
 //
-//  NewtViewController.swift
+//  NextViewController.swift
 //  MedicaLife
 //
 //  Created by raphael on 01/02/2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NewtViewController: UIViewController {
+class NextViewController: UIViewController {
 
     @IBOutlet weak var home: UITabBarItem!
     
