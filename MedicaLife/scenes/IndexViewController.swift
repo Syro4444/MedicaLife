@@ -10,8 +10,13 @@ import UIKit
 
 class IndexViewController: UIViewController {
 
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
     
-    
+    override func viewWillDisappear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
     
     @IBAction func butonDisconect(_ sender: Any) {
         let homeController = HomeViewController()
