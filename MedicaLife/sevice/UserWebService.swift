@@ -1,20 +1,20 @@
 //
-//  TraitmentWebService .swift
+//  UserWebService.swift
 //  MedicaLife
 //
-//  Created by raphael on 04/02/2020.
+//  Created by raphael on 07/02/2020.
 //  Copyright © 2020 raphael. All rights reserved.
 //
 
 import SwiftUI
 
-class TreatmentWebService {
+class UserWebService {
 
-    func getTreatment(completion: @escaping ([Treatment]) -> Void) -> Void {
-        guard let treatmentURL = URL(string: "") else {
+    func getUser(completion: @escaping ([User]) -> Void) -> Void {
+        guard let userURL = URL(string: "") else {
             return;
         }
-        let task = URLSession.shared.dataTask(with: treatmentURL, completionHandler: { (data: Data?, res, err) in
+        let task = URLSession.shared.dataTask(with: userURL, completionHandler: { (data: Data?, res, err) in
             guard let bytes = data,
                   err == nil,
                   let json = try? JSONSerialization.jsonObject(with: bytes, options: .allowFragments) as? [Any] else {
@@ -23,14 +23,14 @@ class TreatmentWebService {
                     }
                 return
             }
-            let treatment = json.compactMap { (obj) -> Treatment? in
+            let user = json.compactMap { (obj) -> User? in
                 guard let dict = obj as? [String: Any] else {
                     return nil
                 }
-                return TreatmentFactory.treatmentFrom(dictionary: dict)
+                return UserFactory.userFrom(dictionary: dict)
             }
             DispatchQueue.main.sync {
-                completion(treatment)
+                completion(user)
             }
         })
         task.resume()

@@ -6,7 +6,7 @@
 //  Copyright © 2020 raphael. All rights reserved.
 //
 
-import Foundation
+import SwiftUI
 
 class TreatmentFactory {
     
@@ -24,8 +24,8 @@ class TreatmentFactory {
     static func dictionaryFrom(treatment: Treatment) -> [String: Any] {
         return [
             "name": treatment.name,
-            "model": treatment.comment,
-            "price": treatment.doseByDay
+            "comment": treatment.comment,
+            "doseByDay": treatment.doseByDay
         ]
     }
     

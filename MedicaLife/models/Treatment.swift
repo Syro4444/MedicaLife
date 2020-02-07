@@ -6,9 +6,8 @@
 //  Copyright © 2020 raphael. All rights reserved.
 //
 
-import Foundation
+import SwiftUI
 
-//
 class Treatment: CustomStringConvertible {
     var id: Int?
     var name: String
