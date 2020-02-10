@@ -27,6 +27,7 @@
 		8E486C1323ED6F37008ABF77 /* TreatmentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E486C1123ED6F37008ABF77 /* TreatmentViewCell.swift */; };
 		8E486C1423ED6F37008ABF77 /* TreatmentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E486C1223ED6F37008ABF77 /* TreatmentViewCell.xib */; };
 		8E5D4EF623EDD14A00854C23 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D4EF523EDD14A00854C23 /* User.swift */; };
+		8EF14DCF23F1ACDC00D757B2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF14DCE23F1ACDC00D757B2 /* Launch Screen.storyboard */; };
 		B263488623D601130028AD87 /* InscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B263488423D601130028AD87 /* InscriptionViewController.swift */; };
 		B263488723D601130028AD87 /* InscriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B263488523D601130028AD87 /* InscriptionViewController.xib */; };
 /* End PBXBuildFile section */
@@ -75,6 +76,7 @@
 		8E486C1123ED6F37008ABF77 /* TreatmentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentViewCell.swift; sourceTree = "<group>"; };
 		8E486C1223ED6F37008ABF77 /* TreatmentViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TreatmentViewCell.xib; sourceTree = "<group>"; };
 		8E5D4EF523EDD14A00854C23 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8EF14DCE23F1ACDC00D757B2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		B263488423D601130028AD87 /* InscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscriptionViewController.swift; sourceTree = "<group>"; };
 		B263488523D601130028AD87 /* InscriptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InscriptionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +141,7 @@
 				64074D5123EC4E36005EC5B1 /* ConnectionViewController.xib */,
 				8E486C1123ED6F37008ABF77 /* TreatmentViewCell.swift */,
 				8E486C1223ED6F37008ABF77 /* TreatmentViewCell.xib */,
+				8EF14DCE23F1ACDC00D757B2 /* Launch Screen.storyboard */,
 			);
 			path = scenes;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			files = (
 				8E486C1423ED6F37008ABF77 /* TreatmentViewCell.xib in Resources */,
 				6462DFC823E5AF4D002D3272 /* NextViewController.xib in Resources */,
+				8EF14DCF23F1ACDC00D757B2 /* Launch Screen.storyboard in Resources */,
 				B263488723D601130028AD87 /* InscriptionViewController.xib in Resources */,
 				645BCC2A23D096F10098CAF1 /* Assets.xcassets in Resources */,
 				645BCC5523D098770098CAF1 /* HomeViewController.xib in Resources */,
