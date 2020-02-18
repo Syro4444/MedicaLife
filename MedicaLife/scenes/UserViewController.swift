@@ -10,6 +10,12 @@ import UIKit
 
 class UserViewController: UIViewController {
 
+    @IBAction func disconect(_ sender: Any) {
+        let submit = LaunchViewController()
+        self.navigationController?.pushViewController(submit, animated: true)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

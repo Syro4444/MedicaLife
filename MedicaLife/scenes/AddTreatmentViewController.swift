@@ -1,5 +1,5 @@
 //
-//  AddTreatlentViewController.swift
+//  AddTreatmentViewController.swift
 //  MedicaLife
 //
 //  Created by Norman on 18/02/2020.
@@ -11,7 +11,7 @@ import UIKit
 
 
 
-class AddTreatlentViewController: UIViewController,UIPickerViewDelegate, UIPickerViewDataSource
+class AddTreatmentViewController: UIViewController,UIPickerViewDelegate, UIPickerViewDataSource
 
 {
 
