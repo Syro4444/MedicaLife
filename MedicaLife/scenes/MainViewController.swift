@@ -25,8 +25,8 @@ class MainViewController: UIViewController {
         self.navigationController?.pushViewController(homeController, animated: true)
     }
     
-    @IBAction func buttonUser(_ sender: UIButton) {
-    }
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
