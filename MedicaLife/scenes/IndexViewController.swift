@@ -23,6 +23,10 @@ class IndexViewController: UIViewController {
         self.navigationController?.pushViewController(homeController, animated: true)
     }
     
+    @IBAction func buttonAdd(_ sender: UIButton) {
+        let homeController = AddTreatlentViewController()
+        self.navigationController?.pushViewController(homeController, animated: true)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
