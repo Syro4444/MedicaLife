@@ -1,5 +1,5 @@
 //
-//  IndexViewController.swift
+//  MainViewController.swift
 //  MedicaLife
 //
 //  Created by raphael on 28/01/2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class IndexViewController: UIViewController {
+class MainViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.setNavigationBarHidden(true, animated: animated)
@@ -18,16 +18,15 @@ class IndexViewController: UIViewController {
         self.navigationController?.setNavigationBarHidden(false, animated: animated)
     }
     
-    @IBAction func butonDisconect(_ sender: Any) {
-        let homeController = HomeViewController()
-        self.navigationController?.pushViewController(homeController, animated: true)
-    }
+    
     
     @IBAction func buttonAdd(_ sender: UIButton) {
         let homeController = AddTreatlentViewController()
         self.navigationController?.pushViewController(homeController, animated: true)
     }
     
+    @IBAction func buttonUser(_ sender: UIButton) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
     }

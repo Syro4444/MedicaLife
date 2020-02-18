@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         let w = UIWindow(frame: UIScreen.main.bounds)
-        w.rootViewController = UINavigationController(rootViewController: HomeViewController())
+        w.rootViewController = UINavigationController(rootViewController: LaunchViewController())
         w.makeKeyAndVisible()
         self.window = w
 

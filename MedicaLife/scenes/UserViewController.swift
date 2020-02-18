@@ -1,26 +1,22 @@
 //
-//  ConnectionViewController.swift
+//  UserViewController.swift
 //  MedicaLife
 //
-//  Created by raphael on 06/02/2020.
+//  Created by Norman on 18/02/2020.
 //  Copyright © 2020 raphael. All rights reserved.
 //
 
 import UIKit
 
-class ConnectionViewController: UIViewController {
+class UserViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Do any additional setup after loading the view.
     }
 
 
-    @IBAction func ConnectButton(_ sender: Any) {
-        let submit = MainViewController()
-        self.navigationController?.pushViewController(submit, animated: true)
-    }
-    
     /*
     // MARK: - Navigation
 

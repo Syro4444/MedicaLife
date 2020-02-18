@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  LaunchViewController.swift
 //  MedicaLife
 //
 //  Created by raphael on 16/01/2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class LaunchViewController: UIViewController {
     let treatmentWebService: TreatmentWebService = TreatmentWebService()
     
     override func viewDidLoad() {
