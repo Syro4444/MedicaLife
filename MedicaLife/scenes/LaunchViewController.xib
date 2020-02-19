@@ -35,7 +35,7 @@
                     </variation>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kE7-Cm-HBn" colorLabel="IBBuiltInLabel-Green">
-                    <rect key="frame" x="124.66666666666669" y="438" width="165" height="52"/>
+                    <rect key="frame" x="125" y="296" width="165" height="52"/>
                     <color key="backgroundColor" red="0.97964018580000001" green="0.62374967339999998" blue="0.76831662649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="tintColor" red="0.40227758879999997" green="0.74308389429999999" blue="0.71004587409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal">
@@ -52,7 +52,7 @@
                     </variation>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5cD-zg-MAR" colorLabel="IBBuiltInLabel-Green">
-                    <rect key="frame" x="124.66666666666669" y="534" width="165" height="52"/>
+                    <rect key="frame" x="125" y="419" width="165" height="52"/>
                     <color key="backgroundColor" red="0.2483294606" green="0.56747519970000004" blue="0.54140359159999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="tintColor" red="0.97964018580000001" green="0.62374967339999998" blue="0.76831662649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal">
@@ -66,18 +66,19 @@
                     </state>
                     <connections>
                         <action selector="Inscription:" destination="-1" eventType="touchUpInside" id="mTW-bL-gXD"/>
+                        <action selector="connectionButton:" destination="-1" eventType="touchUpInside" id="jSm-mB-P84"/>
                     </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="5cD-zg-MAR" secondAttribute="bottom" constant="150" id="3gd-TY-KLP"/>
-                <constraint firstItem="kE7-Cm-HBn" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5dG-dV-Djh"/>
-                <constraint firstItem="5cD-zg-MAR" firstAttribute="top" secondItem="kE7-Cm-HBn" secondAttribute="bottom" constant="44" id="Xr6-Zu-Tmd"/>
-                <constraint firstItem="5cD-zg-MAR" firstAttribute="top" secondItem="kE7-Cm-HBn" secondAttribute="bottom" constant="44" id="alk-cu-gf1"/>
-                <constraint firstItem="5cD-zg-MAR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="f2r-Uc-U7G"/>
-                <constraint firstItem="kE7-Cm-HBn" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="j5B-Om-5kW"/>
-                <constraint firstItem="kE7-Cm-HBn" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="qFO-L5-TVr"/>
+                <constraint firstItem="5cD-zg-MAR" firstAttribute="top" secondItem="kE7-Cm-HBn" secondAttribute="bottom" constant="71" id="3Ag-BU-ly3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="5cD-zg-MAR" secondAttribute="trailing" constant="124" id="61W-ww-Skq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="5cD-zg-MAR" secondAttribute="bottom" constant="265" id="FLu-5o-skn"/>
+                <constraint firstItem="kE7-Cm-HBn" firstAttribute="top" secondItem="96P-14-bZb" secondAttribute="bottom" constant="127" id="GgF-CY-IgF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="kE7-Cm-HBn" secondAttribute="trailing" constant="124" id="ZGh-61-zYI"/>
+                <constraint firstItem="5cD-zg-MAR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="125" id="g4p-aX-yyB"/>
+                <constraint firstItem="kE7-Cm-HBn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="125" id="hsq-zo-AcZ"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="128.98550724637681" y="152.44565217391306"/>

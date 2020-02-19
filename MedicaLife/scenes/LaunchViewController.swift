@@ -26,7 +26,11 @@ class LaunchViewController: UIViewController {
         self.navigationController?.setNavigationBarHidden(false, animated: animated)
     }
 
-
+    @IBAction func connectionButton(_ sender: Any) {
+        let connection = ConnectionViewController()
+        self.navigationController?.pushViewController(connection, animated: true)
+    }
+    
     
     @IBAction func Inscription(_ sender: Any) {
         let inscription = InscriptionViewController()
