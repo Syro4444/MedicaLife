@@ -14,8 +14,20 @@ class ConnectionViewController: UIViewController {
         super.viewDidLoad()
 
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
 
-
+    @IBAction func backButton(_ sender: Any) {
+        let back = LaunchViewController()
+        self.navigationController?.pushViewController(back, animated: true)
+    }
+    
     @IBAction func ConnectButton(_ sender: Any) {
         let submit = MainViewController()
         self.navigationController?.pushViewController(submit, animated: true)

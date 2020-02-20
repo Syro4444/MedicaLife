@@ -15,7 +15,13 @@ class InscriptionViewController: UIViewController {
 
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
    
     @IBAction func submitButton(_ sender: Any) {
         let submit = ConnectionViewController()
