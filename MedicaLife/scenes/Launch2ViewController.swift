@@ -2,13 +2,13 @@
 //  LaunchViewController.swift
 //  MedicaLife
 //
-//  Created by Norman on 21/02/2020.
+//  Created by raphael on 16/01/2020.
 //  Copyright © 2020 raphael. All rights reserved.
 //
 
 import UIKit
 
-class LaunchViewController: UIViewController {
+class Launch2ViewController: UIViewController {
     let treatmentWebService: TreatmentWebService = TreatmentWebService()
     
     override func viewDidLoad() {
@@ -26,19 +26,16 @@ class LaunchViewController: UIViewController {
         self.navigationController?.setNavigationBarHidden(false, animated: animated)
     }
 
-  
-        
     @IBAction func connectionButton(_ sender: Any) {
         let connection = ConnectionViewController()
         self.navigationController?.pushViewController(connection, animated: true)
     }
     
-    @IBAction func inscriptionButton(_ sender: Any) {
+    
+    @IBAction func Inscription(_ sender: Any) {
         let inscription = InscriptionViewController()
         self.navigationController?.pushViewController(inscription, animated: true)
     }
-    
-    
     /*
     // MARK: - Navigation
 

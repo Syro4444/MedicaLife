@@ -18,11 +18,11 @@
 		645BCC2A23D096F10098CAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645BCC2923D096F10098CAF1 /* Assets.xcassets */; };
 		645BCC3823D096F20098CAF1 /* MedicaLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645BCC3723D096F20098CAF1 /* MedicaLifeTests.swift */; };
 		645BCC4323D096F20098CAF1 /* MedicaLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645BCC4223D096F20098CAF1 /* MedicaLifeUITests.swift */; };
-		645BCC5423D098770098CAF1 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645BCC5223D098760098CAF1 /* LaunchViewController.swift */; };
-		645BCC5523D098770098CAF1 /* LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 645BCC5323D098760098CAF1 /* LaunchViewController.xib */; };
 		8E486C1323ED6F37008ABF77 /* TreatmentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E486C1123ED6F37008ABF77 /* TreatmentViewCell.swift */; };
 		8E486C1423ED6F37008ABF77 /* TreatmentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E486C1223ED6F37008ABF77 /* TreatmentViewCell.xib */; };
 		8E5D4EF623EDD14A00854C23 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D4EF523EDD14A00854C23 /* User.swift */; };
+		8E61586723FF57AB0000473C /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E61586523FF57AB0000473C /* LaunchViewController.swift */; };
+		8E61586823FF57AB0000473C /* LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E61586623FF57AB0000473C /* LaunchViewController.xib */; };
 		8E8DCD4A23FBEBEE003A1EC2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8DCD4823FBEBEE003A1EC2 /* MainViewController.swift */; };
 		8E8DCD4B23FBEBEE003A1EC2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E8DCD4923FBEBEE003A1EC2 /* MainViewController.xib */; };
 		8EF14DCF23F1ACDC00D757B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF14DCE23F1ACDC00D757B2 /* LaunchScreen.storyboard */; };
@@ -69,11 +69,11 @@
 		645BCC3E23D096F20098CAF1 /* MedicaLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicaLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		645BCC4223D096F20098CAF1 /* MedicaLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicaLifeUITests.swift; sourceTree = "<group>"; };
 		645BCC4423D096F20098CAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		645BCC5223D098760098CAF1 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
-		645BCC5323D098760098CAF1 /* LaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchViewController.xib; sourceTree = "<group>"; };
 		8E486C1123ED6F37008ABF77 /* TreatmentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentViewCell.swift; sourceTree = "<group>"; };
 		8E486C1223ED6F37008ABF77 /* TreatmentViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TreatmentViewCell.xib; sourceTree = "<group>"; };
 		8E5D4EF523EDD14A00854C23 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8E61586523FF57AB0000473C /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		8E61586623FF57AB0000473C /* LaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchViewController.xib; sourceTree = "<group>"; };
 		8E8DCD4823FBEBEE003A1EC2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8E8DCD4923FBEBEE003A1EC2 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		8EF14DCE23F1ACDC00D757B2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -133,8 +133,8 @@
 		6410855E23E9D13F00C49F6A /* scenes */ = {
 			isa = PBXGroup;
 			children = (
-				645BCC5223D098760098CAF1 /* LaunchViewController.swift */,
-				645BCC5323D098760098CAF1 /* LaunchViewController.xib */,
+				8E61586523FF57AB0000473C /* LaunchViewController.swift */,
+				8E61586623FF57AB0000473C /* LaunchViewController.xib */,
 				B263488423D601130028AD87 /* InscriptionViewController.swift */,
 				B263488523D601130028AD87 /* InscriptionViewController.xib */,
 				64074D5023EC4E36005EC5B1 /* ConnectionViewController.swift */,
@@ -145,9 +145,9 @@
 				8EFB3E0523FB5463002AB664 /* AddTreatmentViewController.swift */,
 				8EFB3E0623FB5463002AB664 /* AddTreatmentViewController.xib */,
 				8E486C1223ED6F37008ABF77 /* TreatmentViewCell.xib */,
-				8EF14DCE23F1ACDC00D757B2 /* LaunchScreen.storyboard */,
 				8EFB3E0923FB6D97002AB664 /* UserViewController.swift */,
 				8EFB3E0A23FB6D97002AB664 /* UserViewController.xib */,
+				8EF14DCE23F1ACDC00D757B2 /* LaunchScreen.storyboard */,
 			);
 			path = scenes;
 			sourceTree = "<group>";
@@ -314,7 +314,7 @@
 				8E8DCD4B23FBEBEE003A1EC2 /* MainViewController.xib in Resources */,
 				8EFB3E0823FB5463002AB664 /* AddTreatmentViewController.xib in Resources */,
 				645BCC2A23D096F10098CAF1 /* Assets.xcassets in Resources */,
-				645BCC5523D098770098CAF1 /* LaunchViewController.xib in Resources */,
+				8E61586823FF57AB0000473C /* LaunchViewController.xib in Resources */,
 				64074D5323EC4E36005EC5B1 /* ConnectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,10 +341,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EFB3E0723FB5463002AB664 /* AddTreatmentViewController.swift in Sources */,
+				8E61586723FF57AB0000473C /* LaunchViewController.swift in Sources */,
 				8EFB3E0B23FB6D97002AB664 /* UserViewController.swift in Sources */,
 				8E5D4EF623EDD14A00854C23 /* User.swift in Sources */,
 				645BCC2123D096E60098CAF1 /* AppDelegate.swift in Sources */,
-				645BCC5423D098770098CAF1 /* LaunchViewController.swift in Sources */,
 				645A666623EDCA1200111F4C /* userFactory.swift in Sources */,
 				6410855D23E9D11700C49F6A /* Treatment.swift in Sources */,
 				8E8DCD4A23FBEBEE003A1EC2 /* MainViewController.swift in Sources */,
