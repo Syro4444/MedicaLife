@@ -6,7 +6,7 @@
 //  Copyright © 2020 raphael. All rights reserved.
 //
 
-import SwiftUI
+import UIKit
 
 class TreatmentWebService {
 
@@ -32,6 +32,42 @@ class TreatmentWebService {
             DispatchQueue.main.sync {
                 completion(treatment)
             }
+        })
+        task.resume()
+    }
+    
+    func removeTreatment(treatment: Treatment, completion: @escaping (Bool) -> Void) -> Void {
+        guard
+            let treatmentId = treatment.id,
+            let treatmentURL = URL(string: "https:///\(treatmentId)") else {
+            return
+        }
+        var request = URLRequest(url: treatmentURL)
+        request.httpMethod = "DELETE"
+        let task = URLSession.shared.dataTask(with: request, completionHandler: { (data, res, err) in
+            if let httpRes = res as? HTTPURLResponse {
+                completion(httpRes.statusCode == 204)
+                return
+            }
+            completion(false)
+        })
+        task.resume()
+    }
+    
+    func addTreatment(treatment: Treatment, completion: @escaping (Bool) -> Void) -> Void {
+        guard let treatmentURL = URL(string: "") else {
+            return
+        }
+        var request = URLRequest(url: treatmentURL)
+        request.httpMethod = "POST"
+        request.httpBody = try? JSONSerialization.data(withJSONObject: TreatmentFactory.dictionaryFrom(treatment: treatment), options: .fragmentsAllowed)
+        request.setValue("application/json", forHTTPHeaderField: "content-type")
+        let task = URLSession.shared.dataTask(with: request, completionHandler: { (data, res, err) in
+            if let httpRes = res as? HTTPURLResponse {
+                completion(httpRes.statusCode == 201)
+                return
+            }
+            completion(false)
         })
         task.resume()
     }

@@ -10,6 +10,10 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    let cellNib = UINib(nibName: "TreatmentViewCell", bundle: nil) //Cellule instancié
+    var treatments: [Treatment]! // création d'un tableau de traitement
+    let traitmentWebService: TreatmentWebService = TreatmentWebService() // appel de l'api
+    
     override func viewWillAppear(_ animated: Bool) {
           self.navigationController?.setNavigationBarHidden(true, animated: animated)
       }
