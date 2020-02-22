@@ -156,6 +156,7 @@
 				8E486C1223ED6F37008ABF77 /* TreatmentViewCell.xib */,
 				8EFB3E0923FB6D97002AB664 /* UserViewController.swift */,
 				8EFB3E0A23FB6D97002AB664 /* UserViewController.xib */,
+				8E486C1223ED6F37008ABF77 /* TreatmentViewCell.xib */,
 				8EF14DCE23F1ACDC00D757B2 /* LaunchScreen.storyboard */,
 			);
 			path = scenes;

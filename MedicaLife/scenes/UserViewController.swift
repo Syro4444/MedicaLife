@@ -15,6 +15,21 @@ class UserViewController: UIViewController {
         self.navigationController?.pushViewController(submit, animated: true)
     }
     
+    @IBOutlet weak var dateLabel: UILabel!
+    
+    
+    @IBOutlet weak var datePicker: UIDatePicker!
+    
+    @IBAction func datePickerChanger(_ sender: Any) {
+        let dateFormatter = DateFormatter()
+
+          dateFormatter.dateStyle = DateFormatter.Style.short
+
+          let strDate = dateFormatter.string(from: datePicker.date)
+          dateLabel.text = strDate
+    }
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
