@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -15,25 +15,15 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ccD-Ql-Nfg">
-                    <rect key="frame" x="0.0" y="618" width="375" height="49"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <items>
-                        <tabBarItem title="Accueil" image="home-icon" id="h4m-hq-7fz"/>
-                        <tabBarItem title="Liste" image="list-icon" id="7fG-8k-NPm"/>
-                        <tabBarItem systemItem="favorites" id="Xi4-ZN-yh4"/>
-                    </items>
-                </tabBar>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94c-8S-cAd">
                     <rect key="frame" x="125" y="341" width="163" height="53"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </button>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-2" translatesAutoresizingMaskIntoConstraints="NO" id="GjB-ey-kg9">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="84"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </imageView>
@@ -72,11 +62,20 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Voici votre traitement du jour" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTb-6K-9LC">
-                    <rect key="frame" x="71" y="220" width="233" height="21"/>
+                    <rect key="frame" x="71" y="121" width="272" height="21"/>
                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hxF-ux-FIa">
+                    <rect key="frame" x="-1" y="687" width="414" height="49"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <items>
+                        <tabBarItem title="Accueil" image="35" id="bbZ-fr-HNl"/>
+                        <tabBarItem title="Traitements" image="text.justify" catalog="system" id="pEQ-Vr-me8"/>
+                    </items>
+                </tabBar>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -88,11 +87,11 @@
         </view>
     </objects>
     <resources>
+        <image name="35" width="35" height="35"/>
         <image name="Image-2" width="1079" height="1153"/>
         <image name="arrowtriangle.down.circle.fill" catalog="system" width="64" height="60"/>
-        <image name="home-icon" width="64" height="64"/>
-        <image name="list-icon" width="64" height="64"/>
         <image name="person.circle" catalog="system" width="64" height="60"/>
         <image name="plus.rectangle" catalog="system" width="64" height="46"/>
+        <image name="text.justify" catalog="system" width="64" height="50"/>
     </resources>
 </document>
