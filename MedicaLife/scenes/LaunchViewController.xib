@@ -50,6 +50,9 @@
                     <variation key="heightClass=regular-widthClass=compact">
                         <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </variation>
+                    <connections>
+                        <action selector="connectionButton:" destination="-1" eventType="touchUpInside" id="143-Vu-1hA"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yPR-Yb-HVi" colorLabel="IBBuiltInLabel-Green">
                     <rect key="frame" x="99" y="581" width="214" height="52"/>

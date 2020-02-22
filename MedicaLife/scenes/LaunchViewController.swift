@@ -29,9 +29,10 @@ class LaunchViewController: UIViewController {
   
         
     @IBAction func connectionButton(_ sender: Any) {
-        let connection = ConnectionViewController()
-        self.navigationController?.pushViewController(connection, animated: true)
+        let inscription = ConnectionViewController()
+        self.navigationController?.pushViewController(inscription, animated: true)
     }
+    
     
     @IBAction func inscriptionButton(_ sender: Any) {
         let inscription = InscriptionViewController()
