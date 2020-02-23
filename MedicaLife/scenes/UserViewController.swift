@@ -33,6 +33,18 @@ class UserViewController: UIViewController {
           dateLabel.text = strDate
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+    
+    @IBAction func SubmitButton(_ sender: Any) {
+        let submit = MainViewController()
+        self.navigationController?.pushViewController(submit, animated: true)
+    }
     
     
     override func viewDidLoad() {
