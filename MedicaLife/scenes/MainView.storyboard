@@ -132,7 +132,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="e64-qf-nrC"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Accueil" image="35" id="o2o-9B-pSe"/>
+                    <tabBarItem key="tabBarItem" title="Accueil" image="30" id="o2o-9B-pSe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t8E-f1-njW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -158,7 +158,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="35" width="35" height="35"/>
+        <image name="30" width="30" height="30"/>
         <image name="Image-2" width="1079" height="1153"/>
         <image name="arrowtriangle.down.circle.fill" catalog="system" width="64" height="60"/>
         <image name="person.circle" catalog="system" width="64" height="60"/>

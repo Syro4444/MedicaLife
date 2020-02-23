@@ -57,33 +57,23 @@
                         <action selector="userButton:" destination="-1" eventType="touchUpInside" id="dIc-He-WFt"/>
                     </connections>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Voici votre traitement du jour" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTb-6K-9LC">
-                    <rect key="frame" x="71" y="121" width="272" height="21"/>
-                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
                 <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hxF-ux-FIa">
                     <rect key="frame" x="-1" y="687" width="414" height="49"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <items>
-                        <tabBarItem title="Accueil" image="35" id="bbZ-fr-HNl"/>
+                        <tabBarItem title="Accueil" image="30" id="bbZ-fr-HNl"/>
                         <tabBarItem title="Traitements" image="text.justify" catalog="system" id="pEQ-Vr-me8"/>
                     </items>
                 </tabBar>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JTb-6K-9LC" secondAttribute="trailing" constant="71" id="6XF-W8-Q8k"/>
-                <constraint firstItem="JTb-6K-9LC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="71" id="Mnn-c2-bet"/>
-            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="131.8840579710145" y="152.44565217391306"/>
         </view>
     </objects>
     <resources>
-        <image name="35" width="35" height="35"/>
+        <image name="30" width="30" height="30"/>
         <image name="Image-2" width="1079" height="1153"/>
         <image name="arrowtriangle.down.circle.fill" catalog="system" width="64" height="60"/>
         <image name="person.circle" catalog="system" width="64" height="60"/>
