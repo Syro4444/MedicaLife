@@ -17,7 +17,7 @@ class AddTreatmentViewController: UIViewController,UIPickerViewDelegate, UIPicke
     let traitmentWebService: TreatmentWebService = TreatmentWebService()
     var keyboardVisible = false
 
-    let colors = ["1","2","3","4"]
+    let dose = ["1","2","3","4","5","6","7","8","9"]
 
     @IBOutlet weak var medicsTextField: UITextField!
     @IBOutlet weak var pickerView: UIPickerView!
@@ -39,11 +39,11 @@ class AddTreatmentViewController: UIViewController,UIPickerViewDelegate, UIPicke
        }
        
    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-       return colors.count
+       return dose.count
    }
    
    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-       return colors[row]
+       return dose[row]
    }
 
     
