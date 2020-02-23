@@ -27,6 +27,8 @@
 		8E5D4EF623EDD14A00854C23 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D4EF523EDD14A00854C23 /* User.swift */; };
 		8E61586723FF57AB0000473C /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E61586523FF57AB0000473C /* LaunchViewController.swift */; };
 		8E61586823FF57AB0000473C /* LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E61586623FF57AB0000473C /* LaunchViewController.xib */; };
+		8E7CFEC82402F1A200177C19 /* TreatmentEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CFEC62402F1A200177C19 /* TreatmentEditViewController.swift */; };
+		8E7CFEC92402F1A200177C19 /* TreatmentEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CFEC72402F1A200177C19 /* TreatmentEditViewController.xib */; };
 		8E8DCD4A23FBEBEE003A1EC2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8DCD4823FBEBEE003A1EC2 /* MainViewController.swift */; };
 		8E8DCD4B23FBEBEE003A1EC2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E8DCD4923FBEBEE003A1EC2 /* MainViewController.xib */; };
 		8E9CCB7A2402E3D70015BAA9 /* MainView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9CCB792402E3D70015BAA9 /* MainView.storyboard */; };
@@ -83,6 +85,8 @@
 		8E5D4EF523EDD14A00854C23 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8E61586523FF57AB0000473C /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		8E61586623FF57AB0000473C /* LaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchViewController.xib; sourceTree = "<group>"; };
+		8E7CFEC62402F1A200177C19 /* TreatmentEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentEditViewController.swift; sourceTree = "<group>"; };
+		8E7CFEC72402F1A200177C19 /* TreatmentEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TreatmentEditViewController.xib; sourceTree = "<group>"; };
 		8E8DCD4823FBEBEE003A1EC2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8E8DCD4923FBEBEE003A1EC2 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		8E9CCB792402E3D70015BAA9 /* MainView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainView.storyboard; sourceTree = "<group>"; };
@@ -157,8 +161,10 @@
 				8E486C1123ED6F37008ABF77 /* TreatmentViewCell.swift */,
 				8EFB3E0923FB6D97002AB664 /* UserViewController.swift */,
 				8EFB3E0A23FB6D97002AB664 /* UserViewController.xib */,
-				8E486C1223ED6F37008ABF77 /* TreatmentViewCell.xib */,
 				8EF14DCE23F1ACDC00D757B2 /* LaunchScreen.storyboard */,
+				8E7CFEC62402F1A200177C19 /* TreatmentEditViewController.swift */,
+				8E7CFEC72402F1A200177C19 /* TreatmentEditViewController.xib */,
+				8E486C1223ED6F37008ABF77 /* TreatmentViewCell.xib */,
 				8E9CCB792402E3D70015BAA9 /* MainView.storyboard */,
 			);
 			path = scenes;
@@ -332,6 +338,7 @@
 			files = (
 				645A51312401817F00436EA9 /* listTreatmentTableViewCell.xib in Resources */,
 				8E486C1423ED6F37008ABF77 /* TreatmentViewCell.xib in Resources */,
+				8E7CFEC92402F1A200177C19 /* TreatmentEditViewController.xib in Resources */,
 				8EFB3E0C23FB6D97002AB664 /* UserViewController.xib in Resources */,
 				8EF14DCF23F1ACDC00D757B2 /* LaunchScreen.storyboard in Resources */,
 				B263488723D601130028AD87 /* InscriptionViewController.xib in Resources */,
@@ -368,6 +375,7 @@
 			files = (
 				8EFB3E0723FB5463002AB664 /* AddTreatmentViewController.swift in Sources */,
 				645A5134240181FC00436EA9 /* TreatmentListViewController.swift in Sources */,
+				8E7CFEC82402F1A200177C19 /* TreatmentEditViewController.swift in Sources */,
 				8E61586723FF57AB0000473C /* LaunchViewController.swift in Sources */,
 				8EFB3E0B23FB6D97002AB664 /* UserViewController.swift in Sources */,
 				8E5D4EF623EDD14A00854C23 /* User.swift in Sources */,
