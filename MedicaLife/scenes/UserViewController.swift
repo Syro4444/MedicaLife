@@ -10,6 +10,11 @@ import UIKit
 
 class UserViewController: UIViewController {
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
+    
     var keyboardVisible = false
 
     @IBAction func disconect(_ sender: Any) {
@@ -46,6 +51,10 @@ class UserViewController: UIViewController {
         self.navigationController?.pushViewController(submit, animated: true)
     }
     
+    @IBAction func disconnectButton(_ sender: Any) {
+        let submit = LaunchViewController()
+            self.navigationController?.pushViewController(submit, animated: true)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

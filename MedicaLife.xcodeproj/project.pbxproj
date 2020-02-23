@@ -22,6 +22,7 @@
 		645BCC2A23D096F10098CAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645BCC2923D096F10098CAF1 /* Assets.xcassets */; };
 		645BCC3823D096F20098CAF1 /* MedicaLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645BCC3723D096F20098CAF1 /* MedicaLifeTests.swift */; };
 		645BCC4323D096F20098CAF1 /* MedicaLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645BCC4223D096F20098CAF1 /* MedicaLifeUITests.swift */; };
+		8E146BB624032979004B3D77 /* Localizable .strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E146BB524032979004B3D77 /* Localizable .strings */; };
 		8E486C1323ED6F37008ABF77 /* TreatmentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E486C1123ED6F37008ABF77 /* TreatmentViewCell.swift */; };
 		8E486C1423ED6F37008ABF77 /* TreatmentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E486C1223ED6F37008ABF77 /* TreatmentViewCell.xib */; };
 		8E5D4EF623EDD14A00854C23 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D4EF523EDD14A00854C23 /* User.swift */; };
@@ -80,6 +81,7 @@
 		645BCC3E23D096F20098CAF1 /* MedicaLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicaLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		645BCC4223D096F20098CAF1 /* MedicaLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicaLifeUITests.swift; sourceTree = "<group>"; };
 		645BCC4423D096F20098CAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E146BB524032979004B3D77 /* Localizable .strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = "Localizable .strings"; sourceTree = "<group>"; };
 		8E486C1123ED6F37008ABF77 /* TreatmentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentViewCell.swift; sourceTree = "<group>"; };
 		8E486C1223ED6F37008ABF77 /* TreatmentViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TreatmentViewCell.xib; sourceTree = "<group>"; };
 		8E5D4EF523EDD14A00854C23 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				645BCC2023D096E60098CAF1 /* AppDelegate.swift */,
 				645BCC2923D096F10098CAF1 /* Assets.xcassets */,
 				645BCC2E23D096F10098CAF1 /* Info.plist */,
+				8E146BB524032979004B3D77 /* Localizable .strings */,
 			);
 			path = MedicaLife;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 645BCC1423D096E50098CAF1;
 			productRefGroup = 645BCC1E23D096E60098CAF1 /* Products */;
@@ -346,6 +350,7 @@
 				8E9CCB7A2402E3D70015BAA9 /* MainView.storyboard in Resources */,
 				8E8DCD4B23FBEBEE003A1EC2 /* MainViewController.xib in Resources */,
 				645BCC2A23D096F10098CAF1 /* Assets.xcassets in Resources */,
+				8E146BB624032979004B3D77 /* Localizable .strings in Resources */,
 				645A5135240181FC00436EA9 /* TreatmentListViewController.xib in Resources */,
 				8E61586823FF57AB0000473C /* LaunchViewController.xib in Resources */,
 				64074D5323EC4E36005EC5B1 /* ConnectionViewController.xib in Resources */,

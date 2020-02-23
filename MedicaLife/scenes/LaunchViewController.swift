@@ -11,6 +11,11 @@ import UIKit
 class LaunchViewController: UIViewController {
     let treatmentWebService: TreatmentWebService = TreatmentWebService()
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
