@@ -29,6 +29,7 @@
 		8E61586823FF57AB0000473C /* LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E61586623FF57AB0000473C /* LaunchViewController.xib */; };
 		8E8DCD4A23FBEBEE003A1EC2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8DCD4823FBEBEE003A1EC2 /* MainViewController.swift */; };
 		8E8DCD4B23FBEBEE003A1EC2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E8DCD4923FBEBEE003A1EC2 /* MainViewController.xib */; };
+		8E9CCB7A2402E3D70015BAA9 /* MainView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9CCB792402E3D70015BAA9 /* MainView.storyboard */; };
 		8EF14DCF23F1ACDC00D757B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF14DCE23F1ACDC00D757B2 /* LaunchScreen.storyboard */; };
 		8EFB3E0723FB5463002AB664 /* AddTreatmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFB3E0523FB5463002AB664 /* AddTreatmentViewController.swift */; };
 		8EFB3E0823FB5463002AB664 /* AddTreatmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB3E0623FB5463002AB664 /* AddTreatmentViewController.xib */; };
@@ -84,6 +85,7 @@
 		8E61586623FF57AB0000473C /* LaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchViewController.xib; sourceTree = "<group>"; };
 		8E8DCD4823FBEBEE003A1EC2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8E8DCD4923FBEBEE003A1EC2 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		8E9CCB792402E3D70015BAA9 /* MainView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainView.storyboard; sourceTree = "<group>"; };
 		8EF14DCE23F1ACDC00D757B2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EFB3E0523FB5463002AB664 /* AddTreatmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTreatmentViewController.swift; sourceTree = "<group>"; };
 		8EFB3E0623FB5463002AB664 /* AddTreatmentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddTreatmentViewController.xib; sourceTree = "<group>"; };
@@ -153,11 +155,11 @@
 				8EFB3E0523FB5463002AB664 /* AddTreatmentViewController.swift */,
 				8EFB3E0623FB5463002AB664 /* AddTreatmentViewController.xib */,
 				8E486C1123ED6F37008ABF77 /* TreatmentViewCell.swift */,
-				8E486C1223ED6F37008ABF77 /* TreatmentViewCell.xib */,
 				8EFB3E0923FB6D97002AB664 /* UserViewController.swift */,
 				8EFB3E0A23FB6D97002AB664 /* UserViewController.xib */,
 				8E486C1223ED6F37008ABF77 /* TreatmentViewCell.xib */,
 				8EF14DCE23F1ACDC00D757B2 /* LaunchScreen.storyboard */,
+				8E9CCB792402E3D70015BAA9 /* MainView.storyboard */,
 			);
 			path = scenes;
 			sourceTree = "<group>";
@@ -333,6 +335,7 @@
 				8EFB3E0C23FB6D97002AB664 /* UserViewController.xib in Resources */,
 				8EF14DCF23F1ACDC00D757B2 /* LaunchScreen.storyboard in Resources */,
 				B263488723D601130028AD87 /* InscriptionViewController.xib in Resources */,
+				8E9CCB7A2402E3D70015BAA9 /* MainView.storyboard in Resources */,
 				8E8DCD4B23FBEBEE003A1EC2 /* MainViewController.xib in Resources */,
 				8EFB3E0823FB5463002AB664 /* AddTreatmentViewController.xib in Resources */,
 				645BCC2A23D096F10098CAF1 /* Assets.xcassets in Resources */,
