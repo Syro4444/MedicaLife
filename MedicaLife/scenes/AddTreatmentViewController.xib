@@ -10,6 +10,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddTreatlentViewController" customModule="MedicaLife" customModuleProvider="target">
             <connections>
+                <outlet property="commentTextField" destination="mov-Ah-hku" id="0gC-PC-A49"/>
+                <outlet property="copmmentTextField" destination="mov-Ah-hku" id="MRy-Eb-nvM"/>
                 <outlet property="datePicker" destination="wrL-ki-5uC" id="VUg-3M-nwb"/>
                 <outlet property="hourPicker" destination="wrL-ki-5uC" id="33k-a4-Be0"/>
                 <outlet property="medicsTextField" destination="Mht-lh-o1u" id="qnH-Ui-t2J"/>
@@ -38,6 +40,9 @@
                     <state key="normal" title="Ajouter">
                         <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="submitTreatment:" destination="-1" eventType="touchUpInside" id="7ID-rW-kA1"/>
+                    </connections>
                 </button>
                 <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mht-lh-o1u">
                     <rect key="frame" x="52" y="182" width="319" height="34"/>

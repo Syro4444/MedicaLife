@@ -23,10 +23,11 @@ class AddTreatmentViewController: UIViewController,UIPickerViewDelegate, UIPicke
     @IBOutlet weak var pickerView: UIPickerView!
     @IBOutlet weak var datePicker: UIDatePicker!
     @IBOutlet weak var hourPicker: UIDatePicker!
+    @IBOutlet weak var commentTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //self.medicsTextField.delegate = self
+        self.medicsTextField.delegate = self
         pickerView.delegate = self
         pickerView.dataSource = self
         
@@ -53,7 +54,25 @@ class AddTreatmentViewController: UIViewController,UIPickerViewDelegate, UIPicke
             self.keyboardVisible = false
         }
     }
-
+    
+    /**
+    @IBAction func submitTreatment(_ sender: UIButton) {
+        guard let medics = self.medicsTextField.text,
+            let day = self.pickerView.delegate,
+            let hour = self.datePicker,
+            let startTreatment = self.hourPicker,
+            let dose = self.pickerView,
+            let comment = self.commentTextField.text else {
+                    return
+            }
+        
+        
+        let treatment = Treatment(medics: medics, day: day, hour: hour, startTreatment: startTreatment, doseByDay: dose, comment: comment)
+        self.traitmentWebService.addTreatment(treatment: treatment) { (success) in
+            print("\(success)")
+        }
+    }
+    */
 }
 
 
