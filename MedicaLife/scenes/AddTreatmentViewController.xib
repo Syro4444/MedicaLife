@@ -13,7 +13,6 @@
                 <outlet property="commentTextField" destination="vde-m6-Chs" id="iCz-DW-pm1"/>
                 <outlet property="datePicker" destination="w5v-H2-awb" id="RHE-mT-Smt"/>
                 <outlet property="hourPicker" destination="r5q-gm-61S" id="tLG-i3-jwc"/>
-                <outlet property="houtPicker" destination="r5q-gm-61S" id="dAC-No-zpz"/>
                 <outlet property="medicsTextField" destination="dlf-YV-KZ0" id="OTa-8H-2V7"/>
                 <outlet property="pickerView" destination="9eb-cr-3Ja" id="h8d-Pd-v9j"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
