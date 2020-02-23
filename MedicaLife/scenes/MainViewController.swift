@@ -9,6 +9,13 @@
 import UIKit
 
 class MainViewController: UIViewController {
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
+    
+
 
     let cellNib = UINib(nibName: "TreatmentViewCell", bundle: nil) //Cellule instancié
     var treatments: [Treatment]! // création d'un tableau de traitement
@@ -22,11 +29,11 @@ class MainViewController: UIViewController {
           self.navigationController?.setNavigationBarHidden(false, animated: animated)
       }
     
+ 
     @IBAction func addButton(_ sender: Any) {
         let submit = AddTreatmentViewController()
-              self.navigationController?.pushViewController(submit, animated: true)
+                    self.navigationController?.pushViewController(submit, animated: true)
     }
-    
     
     
     @IBAction func userButton(_ sender: Any) {
@@ -35,11 +42,24 @@ class MainViewController: UIViewController {
     }
     
     
+    @IBOutlet weak var dateLabel: UILabel!
     
     
     override func viewDidLoad() {
+
+        
         super.viewDidLoad()
        
+        //affichage de la date
+        let aujourdHui = Date()
+        let formatDate = DateFormatter()
+        formatDate.dateStyle = .long
+        formatDate.locale = Locale(identifier: "FR.fr")
+            
+      
+        dateLabel.text =  formatDate.string(from:aujourdHui)
+
+        
         let center = UNUserNotificationCenter.current()
         
         center.requestAuthorization(options: [.alert, .sound]) { (granted, error) in
@@ -48,7 +68,7 @@ class MainViewController: UIViewController {
         // Step 2: Create the notification content
         let content = UNMutableNotificationContent()
         content.title = "Il est temps de prendre votre traitement"
-        content.body = "Xanax"
+        content.body = "Doliprane"
         
         // Step 3: Create the notification trigger
         let date = Date().addingTimeInterval(10)

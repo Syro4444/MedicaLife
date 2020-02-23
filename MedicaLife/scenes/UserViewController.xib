@@ -10,7 +10,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserViewController" customModule="MedicaLife" customModuleProvider="target">
             <connections>
-                <outlet property="dateLabel" destination="iRk-ad-OAP" id="bfA-sw-EZf"/>
                 <outlet property="datePicker" destination="ccb-me-Htl" id="EFv-0w-AvC"/>
                 <outlet property="nameTextField" destination="I8w-4q-Imv" id="Z0V-2E-5sr"/>
                 <outlet property="poidsTextField" destination="Wj8-kj-cg5" id="Lk0-Wj-sgx"/>
@@ -130,14 +129,10 @@
                     <state key="normal" title="Déconnexion">
                         <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="disconnectButton:" destination="-1" eventType="touchUpInside" id="cLx-3m-GI0"/>
+                    </connections>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iRk-ad-OAP">
-                    <rect key="frame" x="87" y="508" width="135" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
                 <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="rkX-r7-dds">
                     <rect key="frame" x="33" y="577" width="149" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>

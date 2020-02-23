@@ -13,6 +13,12 @@ import UIKit
 class AddTreatmentViewController: UIViewController,UIPickerViewDelegate, UIPickerViewDataSource
 
 {
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
+    
     let traitmentWebService: TreatmentWebService = TreatmentWebService()
     var keyboardVisible = false
 
@@ -31,6 +37,8 @@ class AddTreatmentViewController: UIViewController,UIPickerViewDelegate, UIPicke
     @IBOutlet weak var commentTextField: UITextField!
     
     @IBAction func addButton(_ sender: Any) {
+        let inscription = MainViewController()
+        self.navigationController?.pushViewController(inscription, animated: true)
     }
     
     

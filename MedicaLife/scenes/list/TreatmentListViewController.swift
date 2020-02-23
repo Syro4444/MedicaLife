@@ -10,6 +10,11 @@ import UIKit
 
 class TreatmentListViewController: UIViewController {
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
+    
     enum Identifier: String {
      case treatments
     }

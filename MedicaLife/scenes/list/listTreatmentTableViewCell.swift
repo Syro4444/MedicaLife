@@ -10,6 +10,8 @@ import UIKit
 
 class listTreatmentTableViewCell: UITableViewCell {
 
+
+    
     @IBOutlet weak var TreatmentLabel: UILabel!
     
     
