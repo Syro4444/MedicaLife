@@ -12,6 +12,10 @@
             <connections>
                 <outlet property="dateLabel" destination="iRk-ad-OAP" id="bfA-sw-EZf"/>
                 <outlet property="datePicker" destination="ccb-me-Htl" id="EFv-0w-AvC"/>
+                <outlet property="nameTextField" destination="I8w-4q-Imv" id="Z0V-2E-5sr"/>
+                <outlet property="poidsTextField" destination="Wj8-kj-cg5" id="Lk0-Wj-sgx"/>
+                <outlet property="sexSegmented" destination="rkX-r7-dds" id="3rc-KT-6Sd"/>
+                <outlet property="surnameTextField" destination="ffe-K8-MJl" id="a6l-HY-3WU"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -30,6 +34,9 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <action selector="nameTextField:" destination="-1" eventType="editingDidEnd" id="Jhy-x5-0Fj"/>
+                    </connections>
                 </textField>
                 <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ffe-K8-MJl">
                     <rect key="frame" x="24" y="292" width="319" height="34"/>
@@ -58,14 +65,6 @@
                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="rkX-r7-dds">
-                    <rect key="frame" x="20" y="575" width="149" height="32"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <segments>
-                        <segment title="Masculin"/>
-                        <segment title="Féminin"/>
-                    </segments>
-                </segmentedControl>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Prénom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMG-aV-8kR">
                     <rect key="frame" x="20" y="156" width="93" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -136,6 +135,14 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="rkX-r7-dds">
+                    <rect key="frame" x="33" y="577" width="149" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <segments>
+                        <segment title="Masculin"/>
+                        <segment title="Féminin"/>
+                    </segments>
+                </segmentedControl>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>

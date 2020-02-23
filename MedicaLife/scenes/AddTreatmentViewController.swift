@@ -22,6 +22,7 @@ class AddTreatmentViewController: UIViewController,UIPickerViewDelegate, UIPicke
     @IBOutlet weak var medicsTextField: UITextField!
     @IBOutlet weak var pickerView: UIPickerView!
     @IBOutlet weak var datePicker: UIDatePicker!
+    @IBOutlet weak var hourPicker: UIDatePicker!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,4 +54,26 @@ class AddTreatmentViewController: UIViewController,UIPickerViewDelegate, UIPicke
         }
     }
 
+}
+
+
+extension AddTreatmentViewController: UITextFieldDelegate {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        self.keyboardVisible = true
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        if textField == self.medicsTextField {
+            return self.pickerView.becomeFirstResponder() // ouverture du clavier
+        }
+        if textField == self.pickerView {
+            return self.datePicker.becomeFirstResponder() // ouverture du clavier
+        }
+        if textField == self.datePicker {
+            return self.hourPicker.becomeFirstResponder() // ouverture du clavier
+        }
+        self.keyboardVisible = false
+        return false
+    }
 }

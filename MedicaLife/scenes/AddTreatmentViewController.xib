@@ -11,6 +11,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddTreatlentViewController" customModule="MedicaLife" customModuleProvider="target">
             <connections>
                 <outlet property="datePicker" destination="wrL-ki-5uC" id="VUg-3M-nwb"/>
+                <outlet property="hourPicker" destination="wrL-ki-5uC" id="33k-a4-Be0"/>
                 <outlet property="medicsTextField" destination="Mht-lh-o1u" id="qnH-Ui-t2J"/>
                 <outlet property="pickerView" destination="2vK-cd-3mC" id="Trt-fh-PZZ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>

@@ -9,6 +9,8 @@
 import UIKit
 
 class UserViewController: UIViewController {
+    
+    var keyboardVisible = false
 
     @IBAction func disconect(_ sender: Any) {
         let submit = LaunchViewController()
@@ -16,8 +18,10 @@ class UserViewController: UIViewController {
     }
     
     @IBOutlet weak var dateLabel: UILabel!
-    
-    
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var surnameTextField: UITextField!
+    @IBOutlet weak var sexSegmented: UISegmentedControl!
+    @IBOutlet weak var poidsTextField: UITextField!
     @IBOutlet weak var datePicker: UIDatePicker!
     
     @IBAction func datePickerChanger(_ sender: Any) {
@@ -48,4 +52,28 @@ class UserViewController: UIViewController {
     }
     */
 
+}
+
+extension UserViewController: UITextFieldDelegate {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        self.keyboardVisible = true
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        if textField == self.nameTextField {
+            return self.surnameTextField.becomeFirstResponder() // ouverture du clavier
+        }
+        if textField == self.surnameTextField {
+            return self.datePicker.becomeFirstResponder() // ouverture du clavier
+        }
+        if textField == self.datePicker {
+            return self.sexSegmented.becomeFirstResponder() // ouverture du clavier
+        }
+        if textField == self.sexSegmented {
+            return self.poidsTextField.becomeFirstResponder() // ouverture du clavier
+        }
+        self.keyboardVisible = false
+        return false
+    }
 }
