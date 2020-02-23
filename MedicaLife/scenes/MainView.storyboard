@@ -11,7 +11,7 @@
         <!--Traitements-->
         <scene sceneID="2mp-ud-83s">
             <objects>
-                <viewController id="Uqn-bW-paW" sceneMemberID="viewController">
+                <viewController id="Uqn-bW-paW" customClass="TreatmentListViewController" customModule="MedicaLife" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QE5-9i-oqb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,10 +40,6 @@
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="skw-kR-R2H">
-                                <rect key="frame" x="125" y="341" width="164" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="EoC-sM-oEv">
                                 <rect key="frame" x="187" y="348" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -77,6 +73,10 @@
                                 <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" backgroundImage="plus.rectangle" catalog="system"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="skw-kR-R2H">
+                                <rect key="frame" x="125" y="357" width="164" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="u5N-gG-M52"/>
@@ -90,7 +90,7 @@
         <!--Accueil-->
         <scene sceneID="tkz-44-xQV">
             <objects>
-                <viewController id="nA8-zR-Eu5" sceneMemberID="viewController">
+                <viewController id="nA8-zR-Eu5" customClass="MainViewController" customModule="MedicaLife" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ssC-YF-POO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
