@@ -29,12 +29,12 @@
 		8E61586823FF57AB0000473C /* LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E61586623FF57AB0000473C /* LaunchViewController.xib */; };
 		8E7CFEC82402F1A200177C19 /* TreatmentEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CFEC62402F1A200177C19 /* TreatmentEditViewController.swift */; };
 		8E7CFEC92402F1A200177C19 /* TreatmentEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CFEC72402F1A200177C19 /* TreatmentEditViewController.xib */; };
+		8E7CFECC24030A8000177C19 /* AddTreatmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CFECA24030A7F00177C19 /* AddTreatmentViewController.swift */; };
+		8E7CFECD24030A8000177C19 /* AddTreatmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CFECB24030A8000177C19 /* AddTreatmentViewController.xib */; };
 		8E8DCD4A23FBEBEE003A1EC2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8DCD4823FBEBEE003A1EC2 /* MainViewController.swift */; };
 		8E8DCD4B23FBEBEE003A1EC2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E8DCD4923FBEBEE003A1EC2 /* MainViewController.xib */; };
 		8E9CCB7A2402E3D70015BAA9 /* MainView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9CCB792402E3D70015BAA9 /* MainView.storyboard */; };
 		8EF14DCF23F1ACDC00D757B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF14DCE23F1ACDC00D757B2 /* LaunchScreen.storyboard */; };
-		8EFB3E0723FB5463002AB664 /* AddTreatmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFB3E0523FB5463002AB664 /* AddTreatmentViewController.swift */; };
-		8EFB3E0823FB5463002AB664 /* AddTreatmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB3E0623FB5463002AB664 /* AddTreatmentViewController.xib */; };
 		8EFB3E0B23FB6D97002AB664 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFB3E0923FB6D97002AB664 /* UserViewController.swift */; };
 		8EFB3E0C23FB6D97002AB664 /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB3E0A23FB6D97002AB664 /* UserViewController.xib */; };
 		B263488623D601130028AD87 /* InscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B263488423D601130028AD87 /* InscriptionViewController.swift */; };
@@ -87,12 +87,12 @@
 		8E61586623FF57AB0000473C /* LaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchViewController.xib; sourceTree = "<group>"; };
 		8E7CFEC62402F1A200177C19 /* TreatmentEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentEditViewController.swift; sourceTree = "<group>"; };
 		8E7CFEC72402F1A200177C19 /* TreatmentEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TreatmentEditViewController.xib; sourceTree = "<group>"; };
+		8E7CFECA24030A7F00177C19 /* AddTreatmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTreatmentViewController.swift; sourceTree = "<group>"; };
+		8E7CFECB24030A8000177C19 /* AddTreatmentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddTreatmentViewController.xib; sourceTree = "<group>"; };
 		8E8DCD4823FBEBEE003A1EC2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8E8DCD4923FBEBEE003A1EC2 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		8E9CCB792402E3D70015BAA9 /* MainView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainView.storyboard; sourceTree = "<group>"; };
 		8EF14DCE23F1ACDC00D757B2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8EFB3E0523FB5463002AB664 /* AddTreatmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTreatmentViewController.swift; sourceTree = "<group>"; };
-		8EFB3E0623FB5463002AB664 /* AddTreatmentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddTreatmentViewController.xib; sourceTree = "<group>"; };
 		8EFB3E0923FB6D97002AB664 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		8EFB3E0A23FB6D97002AB664 /* UserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
 		B263488423D601130028AD87 /* InscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscriptionViewController.swift; sourceTree = "<group>"; };
@@ -156,8 +156,8 @@
 				64074D5123EC4E36005EC5B1 /* ConnectionViewController.xib */,
 				8E8DCD4823FBEBEE003A1EC2 /* MainViewController.swift */,
 				8E8DCD4923FBEBEE003A1EC2 /* MainViewController.xib */,
-				8EFB3E0523FB5463002AB664 /* AddTreatmentViewController.swift */,
-				8EFB3E0623FB5463002AB664 /* AddTreatmentViewController.xib */,
+				8E7CFECA24030A7F00177C19 /* AddTreatmentViewController.swift */,
+				8E7CFECB24030A8000177C19 /* AddTreatmentViewController.xib */,
 				8E486C1123ED6F37008ABF77 /* TreatmentViewCell.swift */,
 				8EFB3E0923FB6D97002AB664 /* UserViewController.swift */,
 				8EFB3E0A23FB6D97002AB664 /* UserViewController.xib */,
@@ -339,12 +339,12 @@
 				645A51312401817F00436EA9 /* listTreatmentTableViewCell.xib in Resources */,
 				8E486C1423ED6F37008ABF77 /* TreatmentViewCell.xib in Resources */,
 				8E7CFEC92402F1A200177C19 /* TreatmentEditViewController.xib in Resources */,
+				8E7CFECD24030A8000177C19 /* AddTreatmentViewController.xib in Resources */,
 				8EFB3E0C23FB6D97002AB664 /* UserViewController.xib in Resources */,
 				8EF14DCF23F1ACDC00D757B2 /* LaunchScreen.storyboard in Resources */,
 				B263488723D601130028AD87 /* InscriptionViewController.xib in Resources */,
 				8E9CCB7A2402E3D70015BAA9 /* MainView.storyboard in Resources */,
 				8E8DCD4B23FBEBEE003A1EC2 /* MainViewController.xib in Resources */,
-				8EFB3E0823FB5463002AB664 /* AddTreatmentViewController.xib in Resources */,
 				645BCC2A23D096F10098CAF1 /* Assets.xcassets in Resources */,
 				645A5135240181FC00436EA9 /* TreatmentListViewController.xib in Resources */,
 				8E61586823FF57AB0000473C /* LaunchViewController.xib in Resources */,
@@ -373,7 +373,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EFB3E0723FB5463002AB664 /* AddTreatmentViewController.swift in Sources */,
 				645A5134240181FC00436EA9 /* TreatmentListViewController.swift in Sources */,
 				8E7CFEC82402F1A200177C19 /* TreatmentEditViewController.swift in Sources */,
 				8E61586723FF57AB0000473C /* LaunchViewController.swift in Sources */,
@@ -385,6 +384,7 @@
 				8E8DCD4A23FBEBEE003A1EC2 /* MainViewController.swift in Sources */,
 				8E486C1323ED6F37008ABF77 /* TreatmentViewCell.swift in Sources */,
 				6410855A23E9D0D200C49F6A /* TreatmentFactory.swift in Sources */,
+				8E7CFECC24030A8000177C19 /* AddTreatmentViewController.swift in Sources */,
 				645A51302401817F00436EA9 /* listTreatmentTableViewCell.swift in Sources */,
 				645A666423EDC99F00111F4C /* UserWebService.swift in Sources */,
 				6410855823E9D0B600C49F6A /* TreatmentWebService .swift in Sources */,

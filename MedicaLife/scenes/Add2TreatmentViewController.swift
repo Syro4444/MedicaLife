@@ -2,11 +2,12 @@
 //  AddTreatmentViewController.swift
 //  MedicaLife
 //
-//  Created by Norman on 23/02/2020.
+//  Created by Norman on 18/02/2020.
 //  Copyright © 2020 raphael. All rights reserved.
 //
 
 import UIKit
+
 
 
 
@@ -18,21 +19,10 @@ class AddTreatmentViewController: UIViewController,UIPickerViewDelegate, UIPicke
 
     let dose = ["1","2","3","4","5","6","7","8","9"]
 
-    //@IBOutlet weak var medicsTextField: UITextField!
-    //@IBOutlet weak var pickerView: UIPickerView!
-    //@IBOutlet weak var datePicker: UIDatePicker!
-    //@IBOutlet weak var hourPicker: UIDatePicker!
-    
-    
     @IBOutlet weak var medicsTextField: UITextField!
     @IBOutlet weak var pickerView: UIPickerView!
-    @IBOutlet weak var hourPicker: UIDatePicker!
     @IBOutlet weak var datePicker: UIDatePicker!
-    @IBOutlet weak var commentTextField: UITextField!
-    
-    @IBAction func addButton(_ sender: Any) {
-    }
-    
+    @IBOutlet weak var hourPicker: UIDatePicker!
     
     override func viewDidLoad() {
         super.viewDidLoad()
